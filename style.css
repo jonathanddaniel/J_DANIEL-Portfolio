@@ -1,0 +1,20 @@
+/* CSS by Jonathan Daniel */
+/* COLOR PALETTE
+Background = #1E1E1E
+Background (Secondary) = #222222
+Card Background = #2B2B2B
+
+ACCENTS
+Main = #FF8D03
+Secondary = #FFCF7A
+
+TEXT
+Main = #F2F2F2
+Soft = #BABABA
+Softer = #888888
+*/
+
+/* GLOBAL STYLES (Base Styles) MOBILE FIRST */
+body {
+    background-color: #1E1E1E;
+}
