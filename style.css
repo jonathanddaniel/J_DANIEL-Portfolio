@@ -1,6 +1,6 @@
 /* CSS by Jonathan Daniel */
 /* COLOR PALETTE
-Background = #1E1E1E
+Background 01 = #1E1E1E
 Background (Secondary) = #222222
 Card Background = #2B2B2B
 
@@ -17,4 +17,9 @@ Softer = #888888
 /* GLOBAL STYLES (Base Styles) MOBILE FIRST */
 body {
     background-color: #1E1E1E;
+}
+
+.logo {
+    height: 200px;
+    margin-bottom: 1rem;
 }
