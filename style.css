@@ -27,12 +27,14 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: #1E1E1E;
+    background-image: url('img/studio-bg-dark.jpg');
     padding: 1rem;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    padding: 1rem 0;
     gap: 1rem;
 }
 
@@ -72,7 +74,7 @@ nav ul {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     margin: 20px;
 }
@@ -95,19 +97,23 @@ nav ul {
     align-items: center;
     background-color: #2B2B2B;
     padding: 1.5rem;
-    margin-top: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 0;
     justify-content: space-between;
 }
 
 .section-heading h2 {
-    color: 2B2B2B;
+    color: #2B2B2B;
     margin: 30px;
 }
 
 .section-heading p {
     font-size: 1rem;
     margin: 30px;
+}
+
+.section-border {
+    border-top: 1px solid #FF8D03;
+    border-bottom: 1px solid #FF8D03;
 }
 
 .hero-image {
@@ -117,17 +123,45 @@ nav ul {
     border-radius: 7px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b;
+    color: #F2F2F2;
+    padding: 15px;
+    align-items: center;
+    min-height: 200px;
+    border: 1px solid #FF8D03;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
 .card-image {
+    display: block;
+    margin: 0 auto 20px;
     width: 100%;
     max-width: 300px;
     height: auto;
     border-radius: 7px;
+    object-fit: cover;
+}
+
+.card p {
+    width: 100%;
+    max-width: 300px;
 }
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 1rem;
+}
+
+h3 {
+    color: #FF8D03;
 }
 
 @media screen and (max-width:768px){
