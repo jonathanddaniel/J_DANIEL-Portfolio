@@ -17,9 +17,46 @@ Softer = #888888
 /* GLOBAL STYLES (Base Styles) MOBILE FIRST */
 body {
     background-color: #1E1E1E;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-family: sans-serif;
     margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E1E;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #f2f2f2;
+    background-color: #FF8D03;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: #FF8D03;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .logo {
@@ -36,4 +73,38 @@ body {
 .section-heading {
     flex: 1;
     flex-shrink: 1;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2B2B2B;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.section-heading h2 {
+    color: 2B2B2B;
+    margin: 30px;
+}
+
+.section-heading p {
+    font-size: 1rem;
+    margin: 30px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width:768px){
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
