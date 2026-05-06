@@ -1,6 +1,7 @@
 # J_DANIEL-Portfolio
 J_DANIEL-Portfolio
 Portfolio website showcasing work and services
+Website is Responsive
 Pages:
 Home = index.html
 About = about.html
